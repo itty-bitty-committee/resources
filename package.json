@@ -1,0 +1,31 @@
+{
+  "name": "itty-bitty-resources",
+  "version": "0.0.1",
+  "description": "Resources relating to internet accessibility",
+  "scripts": {
+    "fix": "eslint --fix '**/*'"
+  },
+  "devDependencies": {
+    "mikey-pro": "^6.4.17"
+  },
+  "homepage": "https://github.com/itty-bitty-committee/resources#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itty-bitty-committee/resources.git"
+  },
+  "bugs": {
+    "url": "https://github.com/itty-bitty-committee/resources/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "itty bitty committee"
+  ],
+  "author": "Itty Bitty Committee <ittybittyaccessibility@gmail.com> (https://ittybittycommittee.org)",
+  "prettier": "@mikey-pro/prettier-config",
+  "eslintConfig": {
+    "extends": "@mikey-pro/eslint-config"
+  },
+  "stylelint": {
+    "extends": "@mikey-pro/stylelint-config"
+  }
+}
