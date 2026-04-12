@@ -1,31 +1,23 @@
 {
-  "name": "itty-bitty-resources",
-  "version": "0.0.1",
-  "description": "Resources relating to internet accessibility",
-  "scripts": {
-    "fix": "eslint --fix '**/*'"
-  },
-  "devDependencies": {
-    "mikey-pro": "^6.4.17"
-  },
-  "homepage": "https://github.com/itty-bitty-committee/resources#readme",
+  "name": "resources",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Resources",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/itty-bitty-committee/resources.git"
+    "url": "git+https://github.com/chiefmikey/resources.git"
   },
-  "bugs": {
-    "url": "https://github.com/itty-bitty-committee/resources/issues"
-  },
+  "author": "Mikl Wolfe <wolfe@mikl.io> (https://mikl.io)",
   "license": "MIT",
-  "keywords": [
-    "itty bitty committee"
-  ],
-  "author": "Itty Bitty Committee <ittybittyaccessibility@gmail.com> (https://ittybittycommittee.org)",
-  "prettier": "@mikey-pro/prettier-config",
-  "eslintConfig": {
-    "extends": "@mikey-pro/eslint-config"
+  "bugs": {
+    "url": "https://github.com/chiefmikey/resources/issues"
   },
+  "homepage": "https://github.com/chiefmikey/resources#readme",
+  "prettier": "mikey-pro/prettier",
   "stylelint": {
-    "extends": "@mikey-pro/stylelint-config"
+    "extends": "mikey-pro/stylelint"
+  },
+  "devDependencies": {
+    "mikey-pro": "^10.1.0"
   }
 }
